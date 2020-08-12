@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f9f9f9;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif !important;
+}
+
+#data-list article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player_block {
+  flex-basis: 69%;
+}
+.list_block {
+  flex-basis: 29%;
+}
+
+.player_block h1 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.player_block p {
+  font-size: 14px;
+  padding-left: 10px 0px;
+  border-bottom: 1px solid #ccc;
+}
+/* css */
+
+/* header  css */
+#header article {
+  background-color: #fff;
+  display: flex;
+  height: 55px;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+#header article .logoBlock {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+#header article .searchBlock {
+  flex: 4;
+}
+
+#header article .menuBlock {
+  flex: 1;
+}
+
+.logoBlock img {
+  width: 70px;
+}
+
+.logoBlock .bars.icon {
+  font-size: 18px;
+  color: #444;
+  font-stretch: extra-condensed;
+  padding: 0px 30px 0 0;
+}
+
+.searchInput {
+  width: 85%;
+}
+
+.searchBlock .searchInput input {
+  padding: 0 1em;
+  border-radius: 0;
+  height: 32px;
+}
+
+.searchBlock .searchInput button {
+  background: #f8f8f8;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  height: 32px;
+}
+
+.searchBlock .searchInput ::placeholder {
+  color: #666 !important;
+}
+
+.video_and_menuicons {
+  display: flex;
+  justify-content: flex-end;
+}
+.video_and_menuicons div {
+  flex: 1;
+}
+.video_and_menuicons div:last-child {
+  flex: 2;
+}
+
+.homePage article {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.player_block {
+  flex: 2;
+  margin: 25px 20px;
+}
+
+.list_block {
+  flex: 1;
+  margin: 25px 10px;
+}
+
+.videoSelect {
+  display: flex;
+  width: 95%;
+  padding: 0px 0 5px;
+}
+
+.videoSelect img {
+  width: 170px;
+}
+
+.player_block h1 {
+  font-size: 23px;
+  max-height: 3.2rem;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  font-weight: 600;
+  line-height: 1.6rem;
+  color: #030303;
+}
+.videoTitleBlock {
+  border-bottom: 1px solid #cccccc59;
+  padding: 15px 0;
+  margin-bottom: 14px;
+}
+
+.videoSelect h1 {
+  font-size: 15px;
+  margin: 0 0 4px 0;
+  max-height: 3.2rem;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #030303;
+  font-weight: bold;
+}
+
+.video_description {
+  padding: 0 13px;
+}
+.video_description p {
+  color: #606060 !important;
+  font-size: 13px;
+}
+
+.rightList div:nth-child(1) {
+  border-bottom: 1px solid #ccc;
+  padding: 0 0 0px 0px;
+  margin: 0px 0px 16px;
+}
+
+/* .date_count_likeBlock {
+  display: flex;
+} */
+
+.statistics_Block {
+  display: flex;
+}
+.statistics_Block .count {
+  flex: 4;
+}
+
+.statistics_Block .likesBlock {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+.date_count_likeBlock .date {
+  display: inline-block;
+  /* float: left; */
+  position: relative;
+  left: 109px;
+  top: -20px;
+}

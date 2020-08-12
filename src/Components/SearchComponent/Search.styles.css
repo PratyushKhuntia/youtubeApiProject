@@ -1,0 +1,19 @@
+.searchInput {
+  width: 85%;
+}
+
+.searchBlock .searchInput input {
+  padding: 0 1em;
+  border-radius: 0;
+  height: 32px;
+}
+
+.searchBlock .searchInput button {
+  background: #f8f8f8;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  height: 32px;
+}
+
+.searchBlock .searchInput ::placeholder {
+  color: #666 !important;
+}
