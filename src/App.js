@@ -34,7 +34,7 @@ class App extends Component {
     this.setState({ selectedVideo: video });
   };
   onSelectedVideo = async (video) => {
-    var statisticsUrl = `https://www.googleapis.com/youtube/v3/videos?part=statistics&id=${video.id.videoId}&key=AIzaSyCrp4aR3oNJ1a8PJP8G-FDkUThSDO-Qb2A`;
+    var statisticsUrl = `https://www.googleapis.com/youtube/v3/videos?part=statistics&id=${video.id.videoId}&key=AIzaSyDrKZPMEfFheZLtzYJtrtDe2umyn297RTY`;
     let statisticsData = await axios.get(statisticsUrl);
     this.setState({
       selectedVideo: video,

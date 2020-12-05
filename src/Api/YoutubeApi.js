@@ -1,10 +1,10 @@
-// AIzaSyCrp4aR3oNJ1a8PJP8G-FDkUThSDO-Qb2A
+ 
 import axios from "axios";
-let KEY = "AIzaSyCrp4aR3oNJ1a8PJP8G-FDkUThSDO-Qb2A";
+let KEY = "AIzaSyDrKZPMEfFheZLtzYJtrtDe2umyn297RTY";
 
 export const baseParams = {
   part: "snippet",
-  maxResults: 10,
+  maxResults: 5,
   key: KEY
 };
 export const baseStatistics = {
@@ -17,3 +17,7 @@ let YoutubeApi = axios.create({
   params: {}
 });
 export default YoutubeApi;
+
+// AIzaSyCrp4aR3oNJ1a8PJP8G-FDkUThSDO-Qb2A
+
+// AIzaSyCiX-afZORVermmGqL5grYVhwbbYAt7-lY
